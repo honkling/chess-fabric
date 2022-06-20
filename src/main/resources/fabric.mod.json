@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "chess",
+  "version": "${version}",
+  "name": "Chess",
+  "description": "A Fabric mod that lets you play Chess.",
+  "authors": [
+    "honkling"
+  ],
+  "contact": {
+    "repo": "https://github.com/honkling/chess"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.honkling.chess.ChessClient"
+    ]
+  },
+  "mixins": [
+    "chess.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": "1.18.2"
+  }
+}
